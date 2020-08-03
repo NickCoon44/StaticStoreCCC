@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Store</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <header>
+        <!-- <div class="wrapper"> -->
+            <div class="logoWrapper">
+                <h1></h1>
+            </div>
+            <div class="personal">
+                <button id="cart"></button>
+                <button id="signIn">Sign In</button>
+                <button id="register">Register</button>
+            </div>           
+            <div class="banner">
+                <p>CARDS& CARDS& CARDS</p>
+            </div>
+        <!-- </div> -->
+    </header>
+    <nav class="topNav">
+        <ul>
+            <li class="menu">Games</li>
+            <li class="menu">Sleeves</li>
+            <li class="menu">Accessories</li>
+        </ul>
+        <input type="search" placeholder=Search name="" id="">
+    </nav>
+
+    <div id="mainWrapper">
+        <section id="sidebar">
+            <h2>Filters: <button id="filterApply">Apply</button></h2>
+            <br>
+            <form class="filterBox">
+                <fieldset>
+                    <legend><b>[Set Name]</b></legend>
+                    <p><input type="checkbox" id="set1" /><label for="set1">Wyrms Not Worms</label></p>
+                    <p><input type="checkbox" id="set2" /><label for="set2">Lizards, but Wizards</label></p>
+                    <p><input type="checkbox" id="set3" /><label for="set3">Breakfast Noodle Expansion</label></p>
+                    <p><input type="checkbox" id="set4" /><label for="set4">Shortprints and Specials</label></p>
+                </fieldset>
+            </form>
+            <br>
+            <form class="filterBox">
+                <fieldset>
+                    <legend><b>[Card Type]</b></legend>
+                    <p><input type="checkbox" id="type1" /><label for="type1">Creatures</label></p>
+                    <p><input type="checkbox" id="type2" /><label for="type2">Powers</label></p>
+                    <p><input type="checkbox" id="type3" /><label for="type3">Utlities</label></p>
+                    <p><input type="checkbox" id="type4" /><label for="type4">Trash</label></p>
+                </fieldset>
+            </form>
+            <br>
+            <form class="filterBox">
+                <fieldset>
+                    <legend><b>[Rarity]</b></legend>
+                    <p><input type="checkbox" id="rare1" /><label for="rare1">Not Rare</label></p>
+                    <p><input type="checkbox" id="rare2" /><label for="rare2">Kinda Rare</label></p>
+                    <p><input type="checkbox" id="rare3" /><label for="rare3">Shiny Sparkle Rare</label></p>
+                    <p><input type="checkbox" id="rare4" /><label for="rare4">Expensive Rare</label></p>
+                </fieldset>
+            </form>
+            
+        </section>
+        
+        <section id="Main">
+            <div class="card">
+                <img src="Assets/Rock.png">
+                <p class="cardName">Rock - <button class="buy">$1.00</button></p>
+                
+                
+            </div>
+            <div class="card">
+                <img src="Assets/Paper.png">
+                <p class="cardName">Paper - <button class="buy">$1.50</button></p>
+                
+            </div>
+            <div class="card">
+                <img src="Assets/Scissors.png">
+                <p class="cardName">Scissors - <button class="buy">$3.05</button></p>
+                
+            </div>
+            <div class="card">
+                <img src="Assets/Lizard.png">
+                <p class="cardName">Lizard - <button class="buy">$20.00</button></p>
+                
+            </div>
+            <div class="card">
+                <img src="Assets/Spock.png">
+                <p class="cardName">Spock - <button class="buy">$10.60</button></p>
+                
+            </div>
+            <div class="card">
+                <img src="Assets/Draw4.png">
+                <p class="cardName">Draw(+4) - <button class="buy">$4.20</button></p>
+                
+            </div>
+            <div class="card">
+                <img src="Assets/GoFish.png">
+                <p class="cardName">Go Fish - <button class="buy">$0.30</button></p>
+                
+            </div>
+            <div class="card">
+                <img src="Assets/NOPE.png">
+                <p class="cardName">NOPE! - <button class="buy">$1,000.00</button></p>
+                
+            </div>
+            
+        </section>
+    </div>
+        
+    <nav class="bottomNav">
+        <ul>
+            <li class="bottomMenu"><p>Page: </p></li>
+            <li class="bottomMenu"><p class="pageNum">1</p></li>
+            <li class="bottomMenu"><p class="pageNum">2</p></li>
+            <li class="bottomMenu"><p class="pageNum">3</p></li>
+        </ul>
+        <button id="next">Next</button>
+        <button id="prev">Prev.</button>
+    </nav>
+
+    <footer>
+        <div class="social">
+            <a class="socialIcon" href="#"><img src="Assets/yt.png" alt=""></a>
+            <a class="socialIcon" href="#"><img src="Assets/tt.png" alt=""></a>
+            <a class="socialIcon" href="#"><img src="Assets/fb.png" alt=""></a>
+        </div> 
+        <ul>
+            <li>Contact Us</li>
+            <li>Privacy Statement</li>
+            <li>About</li>
+        </ul>
+
+    </footer>
+</body>
+</html>

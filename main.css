@@ -1,0 +1,273 @@
+body{
+    background: lightyellow;
+    margin: 0 0;
+}
+
+
+header{
+    background: lightblue;
+    padding: 10px;
+    margin: 0 0;
+    margin-bottom: 0;
+}
+
+button{
+    cursor: pointer;
+}
+
+nav input{
+    float: right;
+    margin-right: 50px;
+    margin-top: 15px;
+}
+
+footer{
+    background: lightgray;
+    padding: 10px 0;
+}
+
+footer ul{
+    width: 10%;
+}
+
+footer ul li:hover{
+    cursor:pointer;
+    color: white;
+    text-shadow: black 1px 1px;
+}
+
+.logoWrapper{
+    position: relative;
+    width: 200px;
+    max-width: 30%;
+    height: 150px;
+    background: url(Assets/cccLogo.png) center;
+    float: left;
+}
+
+.banner{
+    position: relative;
+    max-width: 40%;
+    min-width: 200px;
+    margin: 0 auto;
+    height: 150px;
+    background: url(Assets/cccBanner.png) center;
+    text-align: center;
+    text-shadow: 1px 1px 2px black, 0 0 1em blue, 0 0 0.2em blue;
+    color: white;
+}
+
+.banner p{
+    font-size: 38px;
+    padding-top: 30px;
+    margin-top: 0;
+}
+
+.personal{
+    position: relative;
+    float: right;
+    margin: 100px auto 20px;
+    width: 20%;
+}
+
+.topNav{
+    background-color: grey;
+    position: sticky;
+    top: 0px;
+    height: 50px;
+    width: 100vw;
+    z-index: 100;
+}
+
+.menu{
+    float: left;
+    margin-right: 10px;
+    text-align: center;
+    position: relative;
+    background-color: blue;
+    border: solid black 1px;
+    border-radius: 5px;
+    padding: 12px;
+    color: white;
+    list-style-type: none;
+}
+
+.card{
+    position: relative;
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    margin-top: 25px;
+    text-align: center;
+}
+
+.bottomNav{
+    background-color: grey;
+    position: relative;
+    height: 50px;
+    width: 100vw;
+    z-index: 10;
+}
+
+.bottomMenu{
+    list-style-type: none;
+    float: left;
+    position: relative;
+    margin-left: 5px;
+    color: white;
+}
+
+.filterBox{
+    background-color: white;
+}
+
+.buy{
+    background-color: lightgreen;
+    border-radius: 10px;
+}
+
+.social{
+    position: absolute;
+    margin-left: 50%;
+}
+
+.socialIcon{
+    text-align: center;
+    margin-right: 5px;
+}
+
+.pageNum:hover{
+    cursor: pointer;
+    color: blue;
+}
+
+.buy:hover{
+    background-color: green;
+    color: white;
+}
+
+.cardName{
+    margin-top: -5px;
+}
+
+.card:hover{
+    cursor: pointer;
+    box-shadow: lightgray -1px -1px;
+}
+.cardName:hover{
+    color: blue;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+.menu:hover{
+    cursor:pointer;
+    background-color: darkblue;
+    font-size: 20px;
+}
+
+.logoWrapper:hover{
+    cursor:pointer;
+}
+
+#signIn{
+    background-color: white;
+    color: black;
+    border-radius: 3px;
+    padding: 5px;
+    width: 100px;
+    height: 35px;
+    position: absolute;
+}
+
+#register{
+    position: absolute;
+    margin-top: -50px;
+    margin-left: -65px;
+    padding: 10px;
+    width: 165px;
+    background-color: blue;
+    color: white;
+}
+#sidebar{
+    float: left;
+    position: relative;
+    width: 200px;
+    height: 750px;
+    padding: 10px;
+    margin: 10px;
+    border: 2px black solid;
+    background-color: lightcyan;
+}
+
+#filterApply{
+    padding: 5px;
+    width: 100px;
+    background-color: white;
+    color: black;
+}
+
+#mainWrapper{
+    min-height: 900px;
+}
+
+#next{
+    float: right;
+    margin-top: 10px;
+    position: relative;
+    margin-right: 50px;
+    background: white;
+    color: black;
+    height: 30px;
+    width: 60px;
+}
+
+#prev{
+    float: right;
+    margin-top: 10px;
+    position: relative;
+    margin-right: 10px;
+    background: white;
+    color: black;
+    height: 30px;
+    width: 60px;
+}
+
+#Main{
+    margin-left: 250px;
+}
+
+#cart{
+    background: url(Assets/cart.png) center;
+    height: 35px;
+    width: 45px;
+    margin-right: 20px;
+}
+
+#next:hover{
+    background-color: blue;
+    color: white;
+}
+
+#prev:hover{
+    background-color: blue;
+    color: white;
+}
+
+#register:hover{
+    background: darkblue;
+}
+
+#signIn:hover{
+    background: gray;
+    color: white;
+}
+
+#filterApply:hover{
+    color:white;
+    background: black;
+}
+
+#cart:hover{
+    background: url(Assets/cart2.png) center;
+}
